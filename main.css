@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d47a1;
+    color: #ede7f6;
+}
+
+textarea, code {
+    font-family: "Source Code Pro";
+    font-size: 1em;
+}
+
+h1 {
+    font-family: "Source Sans";
+    font-weight: 900;
+    font-size: 3em;
+}
+
+p {
+    font-family: "Source Sans";
+    font-weight: 400;
+    font-size: 1.3em;
+}
+    
+
+h3 {
+    font-family: "Source Sans";
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+#header-text {
+    width: 50%;
+    margin: 3em;
+}
+
+#outer-form-area {
+    height: 30em;
+    margin-top: 5em;
+}
+
+#input-group {
+    padding: 3em;
+    border-right: #ff9e80 1px dashed;
+    float: left;
+    display: inline-block;
+    height: 100%;
+    width: 30%;
+}
+
+#input-group h3 {
+    width: 100%;
+    text-align: center;
+}
+
+#input-group textarea {
+    width: 100%;
+    float: left;
+}
+
+#btn-group {
+    height: 100%;
+    width: 40%;
+    float: left;
+    padding: 3em;
+    border-right: #ff9e80 1px dashed;
+}
+
+#btn-group h3 {
+    width: 100%;
+    text-align: center;
+}
+
+#btn-list {
+    width: 100%;
+}
+    
+#btn-list button {
+    width: 4em;
+    height: 4em;
+    margin: 1em;
+    display: inline-block;
+    background-color: #0d47a1;
+    font-family: "Source Sans";
+    font-size: 1em;
+    color: #ff9e80;
+    border-style: none;
+}
+
+#btn-list button:hover {
+    background-color: #ff9e80;
+    color: #0d47a1;
+}
+
+#btn-list button:active {
+    background-color: #ff6e40;
+}
+
+#output-group {
+    float: left;
+    padding: 3em;
+    height: 100%;
+    width: 30%;
+}
+
+#output-group * {
+    width: 100%;
+}
+
+#output-group h3 {
+    text-align: center;
+}
