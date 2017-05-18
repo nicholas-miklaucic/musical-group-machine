@@ -3,30 +3,45 @@
 }
 
 body {
-    background-color: #0d47a1;
-    color: #ede7f6;
+    background-color: #1a237e;
+    color: #e8eaf6;
 }
 
 textarea, code {
-    font-family: "Source Code Pro";
+    font-family: "Source Code Pro Light", monospace;
     font-size: 1em;
 }
 
+textarea {
+    border: #7986cb 1px dashed;
+    background-color: #1a237e;
+    color: #e8eaf6;
+    padding: 1em;    
+}
+
+textarea:focus {
+    background-color: #3949ab;
+}
+
+code {
+    font-size: 0.9em;
+}
+
 h1 {
-    font-family: "Source Sans";
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: 900;
     font-size: 3em;
 }
 
 p {
-    font-family: "Source Sans";
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
     font-size: 1.3em;
 }
     
 
 h3 {
-    font-family: "Source Sans";
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 1.2em;
     font-weight: 300;
 }
@@ -43,7 +58,7 @@ h3 {
 
 #input-group {
     padding: 3em;
-    border-right: #ff9e80 1px dashed;
+    border-right: #7986cb 1px solid;
     float: left;
     display: inline-block;
     height: 100%;
@@ -65,7 +80,7 @@ h3 {
     width: 40%;
     float: left;
     padding: 3em;
-    border-right: #ff9e80 1px dashed;
+    border-right: #7986cb 1px solid;
 }
 
 #btn-group h3 {
@@ -80,22 +95,21 @@ h3 {
 #btn-list button {
     width: 4em;
     height: 4em;
-    margin: 1em;
     display: inline-block;
-    background-color: #0d47a1;
-    font-family: "Source Sans";
-    font-size: 1em;
-    color: #ff9e80;
+    background-color: #1a237e;
+    font-family: "Source Sans Pro Light", sans-serif;
+    font-size: 1.3em;
+    color: #e8eaf6;
     border-style: none;
 }
 
 #btn-list button:hover {
-    background-color: #ff9e80;
-    color: #0d47a1;
+    background-color: #e8eaf6;
+    color: #1a237e;
 }
 
 #btn-list button:active {
-    background-color: #ff6e40;
+    background-color: #9fa8da;
 }
 
 #output-group {
